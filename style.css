@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+}
+#color-box{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: #e0bfbf;
+    border: 1px solid #000;   
+}
+#change-color-btn{
+    height: 30px;
+    margin: 20px;
+    width:  200px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(63, 57, 129);
+    color: white;
+    cursor: pointer;
+}
+#change-color-btn:hover{
+    background-color: rgb(160, 154, 221);
+    color: black;
+    transition: ease 3ms;
+}
