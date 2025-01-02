@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         del.addEventListener('click', () => {
             //delete the item
             item.remove()
-            updateTotal()
+            updatedTotal()
         })
     })
     updatedTotal();
